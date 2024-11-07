@@ -98,11 +98,11 @@ with col2:
     st.markdown("**Relax and Refocus with Guided Mindfulness Exercises**")
 
     if st.button("Generate Mindfulness Exercise 🎧"):
-        mindfulness_text = get_mindfulness_text()
-        st.markdown(f"### 🕊️ Mindfulness Prompt")
-        st.write(mindfulness_text)
-        audio_file = generate_audio_from_text(mindfulness_text)
-        st.audio(audio_file, format='audio/mp3')
+        # mindfulness_text = get_mindfulness_text()
+        # st.markdown(f"### 🕊️ Mindfulness Prompt")
+        # st.write(mindfulness_text)
+        # audio_file = generate_audio_from_text(mindfulness_text)
+        # st.audio(audio_file, format='audio/mp3')
 
 # Layout for Daily Goal Setting
 st.header("🎯 Daily Goal Setting")
